@@ -15,7 +15,6 @@ namespace Test.Data
         }
 
         public DbSet<Major> Majors { get; set; }
-
-        public DbSet<Test.Models.Student> Student { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
